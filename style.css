@@ -36,6 +36,13 @@ min-width: max-content;
     color: #F9FAF8;
 }
 
+.button-one {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 4px 16px;
+}
+
 
 .small-container {
     display: flex;
