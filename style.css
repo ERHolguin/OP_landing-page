@@ -1,9 +1,18 @@
+*.{
+	width: 100%;
+}
+
+
 body {
     min-height: 100vh;
     font-family: Roboto, sans-serif;
     margin: 0;
-    padding: 0 120px;
-    background-color: black;
+    box-sizing: border-box;
+
+    /* setting the box-sizing property to border-box 
+    on any element = its padding and 
+    borders should be included in the width of the 
+    element*/
 }
 
 .header-container {
@@ -73,6 +82,7 @@ min-width: max-content;
 .card-container{
     background-color: white;
     padding: 50px;
+
 }
 
 
@@ -142,6 +152,23 @@ blockquote {
 .action-text {
     font-weight: bold;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
+
+/*
+
+Issues:
+
+one: Action texts need zero margin
+two: UL not aligned with site title
+*/
 
 
 
