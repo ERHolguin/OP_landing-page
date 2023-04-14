@@ -36,12 +36,23 @@ min-width: max-content;
     color: #F9FAF8;
 }
 
-.button-one {
-    color: white;
+.button-one,
+.button-two {
     background-color: #3882F6;
+    color: white;
     border-radius: 5px;
-    padding: 4px 16px;
+    padding: 4px 20px;
 }
+
+.button-one {
+    border: 2px solid #3882F6 ;
+}
+
+.button-two {
+    border: 2px solid white;
+    margin-left: auto;
+}
+
 
 
 .small-container {
@@ -57,14 +68,6 @@ min-width: max-content;
 .title {
     font-size: 48px;
     font-weight: extra bold;
-}
-
-
-.button {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 6px;
-    padding: 4px 16px;
 }
 
 .card-container{
@@ -119,18 +122,27 @@ blockquote {
 .button-two_container {
     background-color: white;
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-two_wrapper {
     border: 2px solid #3882F6;
     background-color: #3882F6;
     color: white;
-    padding: 15px;
+    padding: 15px 100px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .action-text {
     font-weight: bold;
 }
+
+
 
 
