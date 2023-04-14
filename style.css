@@ -115,14 +115,15 @@ min-width: max-content;
 
 }
 
-blockquote {
+.quoted-text {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     padding: 50px;
     color: #1F2937;
     font-size: 36px;
-    font-style: light italic;
+    max-width: 45ch;
 }
 
 .quote-author {
@@ -168,6 +169,7 @@ Issues:
 
 one: Action texts need zero margin
 two: UL not aligned with site title
+three: Quoted text not aligned
 */
 
 
