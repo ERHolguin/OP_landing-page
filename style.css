@@ -61,7 +61,10 @@ min-width: max-content;
 
 
 .button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 16px;
 }
 
 .card-container{
