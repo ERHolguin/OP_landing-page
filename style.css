@@ -81,7 +81,7 @@ min-width: max-content;
 
 .card-container{
     background-color: white;
-    padding: 50px;
+    padding: 75px;
 
 }
 
@@ -111,7 +111,7 @@ min-width: max-content;
 
 .blockquote-container {
     background-color: #E5E7EB;
-    padding: 25px;
+    padding: 15px;
 
 }
 
@@ -150,11 +150,15 @@ min-width: max-content;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    line-height: 0.2em;
 }
 
-.action-text {
+.action-text-one {
     font-weight: bold;
 }
+
+
+
 
 footer {
     background-color: #1F2937;
@@ -167,9 +171,6 @@ footer {
 
 /*
 
-Issues:
-
-one: Action texts need zero margin
 two: UL not aligned with site title
 */
 
