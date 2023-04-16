@@ -127,7 +127,9 @@ min-width: max-content;
 }
 
 .quote-author {
-    
+    font-weight: bold; 
+    text-align: right;
+
 }
 
 .button-two_container {
@@ -169,7 +171,6 @@ Issues:
 
 one: Action texts need zero margin
 two: UL not aligned with site title
-three: Quoted text not aligned
 */
 
 
